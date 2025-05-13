@@ -1,0 +1,22 @@
+- ip addr show
+  ip a
+  shows config of all interfaces
+- ip addr show dev [Name of interface]
+  shows config of specific interface like eth0
+- sudo ip link set [Name of interface] down
+  down specific interface
+- sudo ip link set [Name of interface] up
+  up specific interface
+- sudo ip addr add 192.168.0.123/24 dev [Name of interface]
+  add new ip to interfaces
+- sudo ip addr del 192.168.0.123/24 dev [Name of interface]
+  delete ip from interfaces
+- ip route show
+  show route table
+- sudo ip route add 172.16.252.0/24 via [default gateway] dev [Name of interface]
+  add new route
+- sudo ip route del 172.16.252.0/24 via [default gateway] dev [Name of interface]
+  delete new route 
+- ip -s link show [Name of interface]
+  watch "ip -s link show [Name of interface]"
+  show statistics of specific interface
