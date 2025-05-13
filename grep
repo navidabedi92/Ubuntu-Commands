@@ -1,0 +1,30 @@
+- grep "hello" file.txt
+  Search for the word "hello" in a file.
+
+- grep -i "hello" file.txt
+  Case-insensitive search for "hello" (matches Hello, HELLO, etc.).
+
+- grep "error" *
+  Search for "error" in all files in the current directory.
+
+- grep -r "error" .
+  Recursively search for "error" in current directory and subdirectories.
+
+- grep -n "main" file.txt
+  Show matching lines with their line numbers.
+
+- grep -v "test" file.txt
+  Show lines that do NOT contain the word "test".
+
+- grep "^a" file.txt
+  Find lines that start with the letter "a".
+
+- grep -c "apple" file.txt
+  Count the number of lines that contain "apple".
+
+- grep -l "function" *.py
+  Show only filenames of .py files that contain the word "function".
+
+- ps aux | grep firefox
+  Search for "firefox" in the list of running processes.
+
