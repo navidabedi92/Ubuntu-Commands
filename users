@@ -1,0 +1,2 @@
+- useradd -u 1002 -d /home/zahra -s /bin/bash zahra
+  add new user
