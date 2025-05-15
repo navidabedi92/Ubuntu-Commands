@@ -2,3 +2,5 @@
   add new user
 - id zahra
   identify zahra
+- cat /etc/passwd
+  see all users
