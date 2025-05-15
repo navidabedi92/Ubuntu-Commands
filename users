@@ -4,3 +4,5 @@
   identify zahra
 - cat /etc/passwd
   see all users
+- sudo userdel zahra
+  remove users
