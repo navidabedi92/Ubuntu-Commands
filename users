@@ -19,3 +19,5 @@
   change password for user john
 - groups john
   see list of groups for john
+- sudo groupdel groupname
+  delete groupd
