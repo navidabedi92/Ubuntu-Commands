@@ -7,6 +7,7 @@
 - sudo userdel zahra
   remove users
 - sudo usermod -aG development john
+  sudo usermod -aG group1,group2,group3 username
   change group of user
 - sudo usermod -s /bin/zsh john
   change default shell
