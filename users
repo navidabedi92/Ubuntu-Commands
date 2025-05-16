@@ -17,3 +17,5 @@
   see list of groups
 - sudo passwd john
   change password for user john
+- groups john
+  see list of groups for john
