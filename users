@@ -14,5 +14,5 @@
   create new group
 - cat /etc/group
   see list of groups
-
-https://www.freecodecamp.org/news/how-to-manage-users-in-linux/
+- sudo passwd john
+  change password for user john
