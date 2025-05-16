@@ -8,5 +8,11 @@
   remove users
 - sudo usermod -aG development john
   change group of user
+- sudo usermod -s /bin/zsh john
+  change default shell
+- sudo groupadd marketing
+  create new group
+- cat /etc/group
+  see list of groups
 
 https://www.freecodecamp.org/news/how-to-manage-users-in-linux/
