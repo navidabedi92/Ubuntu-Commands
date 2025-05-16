@@ -6,5 +6,7 @@
   see all users
 - sudo userdel zahra
   remove users
+- sudo usermod -aG development john
+  change group of user
 
 https://www.freecodecamp.org/news/how-to-manage-users-in-linux/
