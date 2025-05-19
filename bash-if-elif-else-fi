@@ -9,3 +9,8 @@ elif [[ $age -gt 20 &&  $age -lt 50 ]]; then
 else
  echo "you are teenage"
 fi
+
+
+for i in {1..5}; do
+ echo $i
+done
