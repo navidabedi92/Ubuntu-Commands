@@ -14,3 +14,8 @@ fi
 for i in {1..5}; do
  echo $i
 done
+
+
+for i in $(seq $start $end); do
+ echo $i
+done
