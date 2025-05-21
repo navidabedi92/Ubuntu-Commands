@@ -1,0 +1,11 @@
+- cat navid.pdf
+  shows content of file
+- less navid.pdf
+  shows the content of file with scrollview
+- head navid.pdf
+  shows top lines of file
+- tail navid.pdf
+  shows bottom lines of file
+- head -n 20 naivd.pdf
+- tail -n 20 navid.pdf
+  show n line of file
