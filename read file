@@ -8,4 +8,4 @@
   shows bottom lines of file
 - head -n 20 naivd.pdf
 - tail -n 20 navid.pdf
-  show n line of file
+  shows n line of file
