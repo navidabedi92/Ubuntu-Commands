@@ -1,7 +1,7 @@
 - cat navid.pdf
   shows content of file
 - less navid.pdf
-  shows the content of file with scrollview
+  shows content of file with scrollview
 - head navid.pdf
   shows top lines of file
 - tail navid.pdf
