@@ -9,3 +9,5 @@
 - head -n 20 naivd.pdf
 - tail -n 20 navid.pdf
   shows n line of file
+- nl navid.pdf
+  shows content of file with line numbers
