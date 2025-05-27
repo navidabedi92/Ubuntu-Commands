@@ -2,3 +2,5 @@
   confirm availibility
 - scp navid.sh root@ip:/root/...
   copy file to remote server at specific address
+- scp root@ip:/root/navid.sh /root
+  copy file from remote server to specific address
