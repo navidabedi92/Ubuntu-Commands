@@ -1,1 +1,4 @@
-
+- command -v scp
+  confirm availibility
+- scp navid.sh root@ip:/root/...
+  copy file to remote server at specific address
