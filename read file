@@ -5,6 +5,7 @@
 - head navid.pdf
   shows top lines of file
 - tail navid.pdf
+- tail -f navid.pdf
   shows bottom lines of file
 - head -n 20 naivd.pdf
 - tail -n 20 navid.pdf
