@@ -1,1 +1,10 @@
-
+- rsync [options] source destination
+- rsync -av /home/user/docs/ /backup/docs/
+  Note: The trailing slash / matters! With it, it copies contents; without it, it copies the folder itself.
+- rsync -avz /home/user/docs/ user@remote:/backup/docs/
+  copies folders over ssh
+- -z → compress data during transfer
+  -a → archive mode (preserve permissions, symlinks, etc.)
+  -v → verbose output
+- rsync -av --dry-run /home/user/docs/ /backup/docs/
+  simulate transer before real one
