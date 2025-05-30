@@ -6,6 +6,14 @@
 - -z → compress data during transfer
   -a → archive mode (preserve permissions, symlinks, etc.)
   -v → verbose output
+  -r → recursive (includes all subdirectories)
+  -l → copy symlinks as symlinks
+  -p → preserve permissions
+  -t → preserve modification times
+  -g → preserve group
+  -o → preserve owner (if run as root)
+  -D → preserve device files & special files
+
 - rsync -av --dry-run /home/user/docs/ /backup/docs/
   simulate transer before real one
 - rsync -av --exclude 'node_modules' /project/ /backup/project/
