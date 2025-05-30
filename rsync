@@ -13,6 +13,7 @@
   -g → preserve group
   -o → preserve owner (if run as root)
   -D → preserve device files & special files
+  -L → Copy the symlink as a symlink (default in -a)
 
 - rsync -av --dry-run /home/user/docs/ /backup/docs/
   simulate transer before real one
