@@ -8,3 +8,11 @@
   -v → verbose output
 - rsync -av --dry-run /home/user/docs/ /backup/docs/
   simulate transer before real one
+- rsync -av --exclude 'node_modules' /project/ /backup/project/
+  exclude files
+- rsync -av --progress /home/user/docs/ /backup/docs/
+  shows progressbar
+
+- Note:Use SSH keys to avoid typing passwords when syncing remote.
+       Use cron jobs to schedule regular backups.
+       Always test new rsync commands with --dry-run before running for real.
