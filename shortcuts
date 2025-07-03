@@ -1,0 +1,8 @@
+- Ctrl+L
+  clear editor
+- Ctrl+A
+  move cursor to first of line
+- Ctrl+D
+  close editor
+- Ctrl+E
+  move cursor to end of line
