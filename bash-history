@@ -9,3 +9,5 @@
 - !!
 - CTRL+R
 - CTRL+G
+- history -d [line number]
+- history -c
