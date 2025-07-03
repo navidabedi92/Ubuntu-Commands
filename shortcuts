@@ -6,3 +6,9 @@
   close editor
 - Ctrl+E
   move cursor to end of line
+- Ctrl+U
+  Clear Line
+- Ctrl+C
+  stop process
+- Ctrl+Z
+  suspend process
