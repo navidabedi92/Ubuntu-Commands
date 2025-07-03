@@ -1,0 +1,10 @@
+- history
+- cat .bash_history
+- echo $HISTFILESIZE
+- echo $HISTSIZE
+- ![number of command]
+- ![number of command]:p
+- ![command name]
+- ![command name]:p
+- !!
+- CTRL+R
