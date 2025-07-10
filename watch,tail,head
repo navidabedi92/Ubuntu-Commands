@@ -1,0 +1,4 @@
+- watch
+- tail -n 20 /var/log/auth.lgo
+- head -n 20 ...
+- tail -f
