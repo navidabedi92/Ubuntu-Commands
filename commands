@@ -1,0 +1,14 @@
+- watch
+- tail -n 20 /var/log/auth.lgo
+- head -n 20 ...
+- tail -f
+- wc -l
+  count lines
+- wc -n
+  count words
+- wc -c
+  count characters
+- mv -u
+  update newer versions
+- mv -i
+  ask for permision
