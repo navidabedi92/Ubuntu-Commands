@@ -16,3 +16,5 @@
   cut the sentence base on delimiter(:) and return part 1
 - ifconfig | grep ether | tee m.txt
   prints result and saves in file
+- ifconfig | grep ether | tee -a m.txt
+  prints result and append in file
