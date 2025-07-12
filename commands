@@ -14,3 +14,5 @@
   ask for permision
 - cut -d":" -f1 /etc/passwd
   cut the sentence base on delimiter(:) and return part 1
+- ifconfig | grep ether | tee m.txt
+  prints result and saves in file
