@@ -12,5 +12,5 @@
   update newer versions
 - mv -i
   ask for permision
-- cut -d":" -f1
+- cut -d":" -f1 /etc/passwd
   cut the sentence base on delimiter(:) and return part 1
