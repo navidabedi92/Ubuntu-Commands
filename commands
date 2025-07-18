@@ -18,3 +18,5 @@
   prints result and saves in file
 - ifconfig | grep ether | tee -a m.txt
   prints result and append in file
+- sudo netstat -tupan
+  shows all open ports
