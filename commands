@@ -20,3 +20,5 @@
   prints result and append in file
 - sudo netstat -tupan
   shows all open ports
+- sort
+- sort -r
