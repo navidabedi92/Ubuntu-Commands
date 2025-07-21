@@ -4,3 +4,6 @@
   extract achieve
 - tar -t
   displays the content
+- tar -z
+  compress
+- tar -z xxx.tar.gz [path]
