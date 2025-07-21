@@ -1,0 +1,6 @@
+- tar -c
+  creates archieve
+- tar-x
+  extract achieve
+- tar -t
+  displays the content
