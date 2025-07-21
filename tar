@@ -6,4 +6,6 @@
   displays the content
 - tar -z
   compress
-- tar -z xxx.tar.gz [path]
+- tar -f
+  allow specify name of file
+- tar -czvf xxx.tar.gz /etc/
