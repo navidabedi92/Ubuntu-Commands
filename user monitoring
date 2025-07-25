@@ -1,0 +1,7 @@
+- who
+- id
+- id -un
+- /var/log/wtmp
+- last
+- last [username]
+- last [action]
