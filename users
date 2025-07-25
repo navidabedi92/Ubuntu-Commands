@@ -21,3 +21,7 @@
   see list of groups for john
 - sudo groupdel groupname
   delete groupd
+
+Note: every user has a primary group and several secondary groups.
+-aG appends to secondary groups
+-g changes primary group
