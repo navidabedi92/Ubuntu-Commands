@@ -1,0 +1,13 @@
+/etc/ssh/sshd_config
+
+change default port
+
+set PermitRootLogin no
+
+add AllowUsers (AllowUsers student root u1)
+
+add Source IP addresses using iptables
+
+disable password login
+
+use ssh protocol v2
