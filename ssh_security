@@ -11,3 +11,7 @@ add Source IP addresses using iptables
 disable password login
 
 use ssh protocol v2
+
+set ideal interval time out to lock out (ClientAliveInterval=300,ClientAliveCountMax=0)
+
+set max tries
