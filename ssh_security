@@ -38,3 +38,7 @@ mkdir -p ~/.ssh
 chmod 700 ~/.ssh
 cp navid_key ~/.ssh/id_rsa
 chmod 600 ~/.ssh/id_rsa
+
+nano /etc/ssh/sshd_config
+PasswordAuthentication no
+PermitRootLogin prohibit-password
