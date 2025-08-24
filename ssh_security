@@ -16,6 +16,7 @@ set ideal interval time out to lock out (ClientAliveInterval=300,ClientAliveCoun
 
 set max tries
 
+systemctl restart ssh
 ---------------------
 
  
