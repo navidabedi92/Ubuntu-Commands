@@ -24,6 +24,17 @@ ssh-keygen -t rsa -b 2048 -C 'it is for navid'
 : do not use passphrase key
 : public and private keys are stored in .ssh directory - ls .ssh
 
+if u are client
 ssh-copy-id root@[ip address ]
 
 cat .ssh/authorized_keys
+
+if u are server
+cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+/home/[clientusername]/.ssh/authorized_keys
+
+Place the key for client in ~/.ssh/ directory:
+mkdir -p ~/.ssh
+chmod 700 ~/.ssh
+cp navid_key ~/.ssh/id_rsa
+chmod 600 ~/.ssh/id_rsa
