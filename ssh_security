@@ -8,10 +8,21 @@ add AllowUsers (AllowUsers student root u1)
 
 add Source IP addresses using iptables
 
-disable password login
+disable password login (PasswordAuthenctication no)
 
 use ssh protocol v2
 
 set ideal interval time out to lock out (ClientAliveInterval=300,ClientAliveCountMax=0)
 
 set max tries
+
+---------------------
+
+ 
+ssh-keygen -t rsa -b 2048 -C 'it is for navid'
+: do not use passphrase key
+: public and private keys are stored in .ssh directory - ls .ssh
+
+ssh-copy-id root@[ip address ]
+
+cat .ssh/authorized_keys
