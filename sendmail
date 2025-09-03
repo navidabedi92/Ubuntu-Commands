@@ -1,0 +1,43 @@
+sudo apt update
+sudo apt install mailutils msmtp msmtp-mta -y
+
+#mailutils → provides the mail command
+
+#msmtp → SMTP client
+
+#msmtp-mta → lets mail use msmtp as a sendmail replacement
+
+mail --version
+msmtp --version
+----------------------
+nano ~/.msmtprc
+
+# Gmail SMTP configuration
+defaults
+auth           on
+tls            on
+tls_trust_file /etc/ssl/certs/ca-certificates.crt
+logfile        ~/.msmtp.log
+
+account        gmail
+host           smtp.gmail.com
+port           587
+from           abedinavid70@gmail.com
+user           abedinavid70@gmail.com
+password       pbro kshm lgrl dcdz  # Gmail App Password
+
+account default : gmail
+--------------------------
+chmod 600 ~/.msmtprc
+
+-----------------------
+
+echo "Hello from Linux via Gmail SMTP" | mail -s "Test Email" abedinavid92@gmail.com
+-----------------
+
+
+cat ~/.msmtp.log
+
+
+
+
